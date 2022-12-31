@@ -24,7 +24,7 @@ public class Game {
 		this(8);
 	}
 
-	
+	// Prints board state
 	void printBoard() {
 		for(int row = 0; row < this.boardSize; row++) {
 			for(int col =0; col < this.boardSize; col++) {
